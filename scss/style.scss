@@ -15,6 +15,7 @@ body {
   background-color: $color-light;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   line-height: 1.6;
+  // min-height: 100vh;
 }
 
 a {
@@ -134,12 +135,13 @@ header {
 // carousel
 #carousel {
   position: relative;
-  margin: 10rem auto;
+  margin: 6rem auto;
   background-color: $color-lightx2;
   padding: 1rem 0;
 
   img {
-    height: 500px;
+    height: 480px;
+    object-fit: contain;
 
     // &::after {
     //   position: absolute;
@@ -153,7 +155,6 @@ header {
   }
 
   .carousel-item {
-
     h3 {
       padding: 0.5rem 0;
       background: $color-dark;
@@ -162,7 +163,6 @@ header {
     }
   }
 }
-
 
 // Sign in page
 #sign-in,
@@ -178,7 +178,7 @@ header {
     border: none;
     padding: 0.7rem 1rem;
     background: $color-lightx2;
-  
+
     &:focus {
       outline: none;
       // border: $color-dark 1px solid;
@@ -202,11 +202,9 @@ header {
 
 footer {
   background-color: $color-lightx2;
-  position: absolute;
-  bottom: 0;
-  display: block;
-  text-align: center;
-  width: 100%;
+  p {
+    margin-bottom: 0;
+  }
 }
 
 @import "media";

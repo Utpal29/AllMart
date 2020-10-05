@@ -138,13 +138,15 @@ header #navbar input[type="text"] {
 
 #carousel {
   position: relative;
-  margin: 10rem auto;
+  margin: 6rem auto;
   background-color: #f7f7f9;
   padding: 1rem 0;
 }
 
 #carousel img {
-  height: 500px;
+  height: 480px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 #carousel .carousel-item h3 {
@@ -196,11 +198,10 @@ header #navbar input[type="text"] {
 
 footer {
   background-color: #f7f7f9;
-  position: absolute;
-  bottom: 0;
-  display: block;
-  text-align: center;
-  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0;
 }
 
 @media (max-width: 900px) {
