@@ -1,5 +1,5 @@
 // Tablets & Smaller
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   header {
     height: auto;
 
@@ -7,18 +7,18 @@
       flex-direction: column;
       align-items: start;
       padding-bottom: 0.3rem;
-
-      input[type="text"] {
-        margin: 1rem 0 1.4rem 3rem;
-      }
+      // justify-content: center;
+      align-items: center;
 
       ul {
         padding-bottom: 1rem;
         flex-direction: column;
+        align-items: flex-start;
 
         li {
           margin-top: 0.1rem;
           font-size: 1.2rem;
+          padding-top: 2rem;
         }
       }
     }
@@ -30,6 +30,10 @@
     .nav-search,
     .nav-left {
       display: none;
+    }
+
+    .nav-search {
+      padding-top: 1rem;
     }
   }
 }

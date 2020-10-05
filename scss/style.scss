@@ -20,6 +20,11 @@ body {
 a {
   text-decoration: none;
   color: $color-light;
+
+  &:hover {
+    color: inherit;
+    opacity: 0.8;
+  }
 }
 
 ul {
@@ -56,8 +61,13 @@ input {
 
 // navbar
 header {
+  top: 0;
   background: $color-dark;
   height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  opacity: 0.99;
 
   #navbar {
     padding-top: 1.3rem;
@@ -77,13 +87,20 @@ header {
     ul {
       display: flex;
       justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin-bottom: 0;
 
       li {
         padding-left: 1.5rem;
 
         i {
-          margin-right: 1rem;
+          margin-right: 0.3rem;
         }
+      }
+
+      #categories {
+        margin-right: 3rem;
       }
     }
 
@@ -104,14 +121,92 @@ header {
       padding: 0.7rem 1rem;
     }
   }
+}
 
-  .toggle {
-    position: absolute;
-    top: 2.2rem;
-    right: 6rem;
-    transform: scale(2);
-    display: none;
+.toggle {
+  position: absolute;
+  top: 2.2rem;
+  right: 6rem;
+  transform: scale(2);
+  display: none;
+}
+
+// carousel
+#carousel {
+  position: relative;
+  margin: 10rem auto;
+  background-color: $color-lightx2;
+  padding: 1rem 0;
+
+  img {
+    height: 500px;
+
+    // &::after {
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   height: 100%;
+    //   width: 100%;
+    //   z-index: 2;
+    //   opacity: 1;
+    // }
+  }
+
+  .carousel-item {
+
+    h3 {
+      padding: 0.5rem 0;
+      background: $color-dark;
+      font-weight: 1000;
+      color: #fff;
+    }
   }
 }
 
-@import 'media';
+
+// Sign in page
+#sign-in,
+#sign-up {
+  margin: 8rem auto;
+
+  .title {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  input {
+    border: none;
+    padding: 0.7rem 1rem;
+    background: $color-lightx2;
+  
+    &:focus {
+      outline: none;
+      // border: $color-dark 1px solid;
+    }
+  }
+
+  a {
+    color: #000;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+
+  .btn {
+    border-radius: 0;
+    padding: 0.7rem 1rem;
+  }
+}
+
+footer {
+  background-color: $color-lightx2;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+@import "media";
