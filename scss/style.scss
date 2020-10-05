@@ -26,6 +26,14 @@ a {
     color: inherit;
     opacity: 0.8;
   }
+
+  &:active {
+    color: inherit;
+  }
+
+  &:visited {
+    color: inherit;
+  }
 }
 
 ul {
@@ -197,6 +205,17 @@ header {
   .btn {
     border-radius: 0;
     padding: 0.7rem 1rem;
+  }
+}
+
+#latest {
+  a {
+    color: #000;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
   }
 }
 

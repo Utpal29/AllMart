@@ -19,6 +19,14 @@ a:hover {
   opacity: 0.8;
 }
 
+a:active {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
 ul {
   list-style: none;
 }
@@ -196,6 +204,15 @@ header #navbar input[type="text"] {
   padding: 0.7rem 1rem;
 }
 
+#latest a {
+  color: #000;
+}
+
+#latest a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 footer {
   background-color: #f7f7f9;
 }
@@ -245,6 +262,15 @@ footer p {
   }
   header .nav-search {
     padding-top: 1rem;
+  }
+  #carousel {
+    margin: 3rem auto;
+  }
+}
+
+@media (max-width: 500px) {
+  #carousel {
+    margin: 0rem auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

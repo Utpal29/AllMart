@@ -36,8 +36,16 @@
       padding-top: 1rem;
     }
   }
+
+  #carousel {
+    margin: 3rem auto;
+  }
+
 }
 
 // Smartphones
-// @media (max-width: 500px) {
-// }
+@media (max-width: 500px) {
+  #carousel {
+    margin: 0rem auto;
+  }
+}
