@@ -1,0 +1,117 @@
+// Variables
+$website-width: 1280px;
+$color-main: #4bbf73;
+$color-dark: #343a40;
+$color-light: #fff;
+$color-lightx2: #f7f7f9;
+
+//General Styles
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $color-light;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: $color-light;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+input {
+  border: none;
+  padding: 0.7rem 1rem;
+  background: $color-lightx2;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// Utilities
+.container {
+  max-width: $website-width;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+// navbar
+header {
+  background: $color-dark;
+  height: 100px;
+
+  #navbar {
+    padding-top: 1.3rem;
+    color: $color-light;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-logo {
+      font-size: 1.5rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      padding: 0.5rem 1rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+
+      li {
+        padding-left: 1.5rem;
+
+        i {
+          margin-right: 1rem;
+        }
+      }
+    }
+
+    input[type="submit"] {
+      margin-left: 0.4rem;
+      background-color: inherit;
+      border: $color-main 2px solid;
+      color: $color-main;
+
+      &:hover {
+        background-color: $color-main;
+        color: $color-light;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+
+    input[type="text"] {
+      padding: 0.7rem 1rem;
+    }
+  }
+
+  .toggle {
+    position: absolute;
+    top: 2.2rem;
+    right: 6rem;
+    transform: scale(2);
+    display: none;
+  }
+}
+
+@import 'media';
