@@ -39,144 +39,161 @@
     </div>
   </header>
 
-  <section id="carousel">
-    <div class="container">
-      <div id="carouselExampleCaptions" class="carousel slide carousel-dark" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="#"><img src="./img/968891.jpg" class="d-block w-100" alt="..."></a>
-            <div class="carousel-caption d-md-block">
-              <h3>Men section</h3>
+  <div id="main">
+    <section id="carousel">
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-dark" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#"><img src="./img/968891.jpg" class="d-block w-100" alt="..."></a>
+              <div class="carousel-caption d-md-block">
+                <h3>Men section</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="#"><img src="./img/968891.jpg" class="d-block w-100" alt="..."></a>
+              <div class="carousel-caption d-md-block">
+                <h3>Women section</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="#"><img src="./img/968891.jpg" class="d-block w-100" alt="..."></a>
+              <div class="carousel-caption d-md-block">
+                <h3>Kids section</h3>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <a href="#"><img src="./img/968891.jpg" class="d-block w-100" alt="..."></a>
-            <div class="carousel-caption d-md-block">
-              <h3>Women section</h3>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <a href="#"><img src="./img/968891.jpg" class="d-block w-100" alt="..."></a>
-            <div class="carousel-caption d-md-block">
-              <h3>Kids section</h3>
-            </div>
-          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="latest">
-    <div class="container">
-      <h1>Latest Products</h1>
-      <div class="row">
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-          <div class="my-3 p-3 rounder card">
-            <a href="#"><img src="./img/968891.jpg" class="card-img-top"></a>
-            <div class="card-body">
-              <a href="#">
-                <div class="card-title">
-                  <strong>product name</strong>
+    <section id="latest">
+      <div class="container">
+        <h1>Latest Products</h1>
+        <div id="products">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="my-3 p-3 rounder card">
+                <a href="#"><img src="./img/968891.jpg" class="card-img-top product-img"></a>
+                <div class="card-body">
+                  <a href="#">
+                    <div class="card-title">
+                      <strong class="product-name">product name A</strong>
+                    </div>
+                  </a>
+                  <h3 class="card-text">Rs. <span class="p-price">111</span></h3>
+                  <button class="btn btn-dark btn-block" id="add-cart-btn">ADD TO CART</button>
                 </div>
-              </a>
-              <h3 class="card-text">Rs. <span class="p-price">999</span></h3>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-          <div class="my-3 p-3 rounder card">
-            <a href="#"><img src="./img/968891.jpg" class="card-img-top"></a>
-            <div class="card-body">
-              <a href="#">
-                <div class="card-title">
-                  <strong>product name</strong>
+            
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="my-3 p-3 rounder card">
+                <a href="#"><img src="./img/968891.jpg" class="card-img-top product-img"></a>
+                <div class="card-body">
+                  <a href="#">
+                    <div class="card-title">
+                      <strong class="product-name">product name B</strong>
+                    </div>
+                  </a>
+                  <h3 class="card-text">Rs. <span class="p-price">222</span></h3>
+                  <button class="btn btn-dark btn-block" id="add-cart-btn">ADD TO CART</button>
                 </div>
-              </a>
-              <h3 class="card-text">Rs. <span class="p-price">999</span></h3>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-          <div class="my-3 p-3 rounder card">
-            <a href="#"><img src="./img/968891.jpg" class="card-img-top"></a>
-            <div class="card-body">
-              <a href="#">
-                <div class="card-title">
-                  <strong>product name</strong>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="my-3 p-3 rounder card">
+                <a href="#"><img src="./img/968891.jpg" class="card-img-top product-img"></a>
+                <div class="card-body">
+                  <a href="#">
+                    <div class="card-title">
+                      <strong class="product-name">product name C</strong>
+                    </div>
+                  </a>
+                  <h3 class="card-text">Rs. <span class="p-price">333</span></h3>
+                  <button class="btn btn-dark btn-block" id="add-cart-btn">ADD TO CART</button>
                 </div>
-              </a>
-              <h3 class="card-text">Rs. <span class="p-price">999</span></h3>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-          <div class="my-3 p-3 rounder card">
-            <a href="#"><img src="./img/968891.jpg" class="card-img-top"></a>
-            <div class="card-body">
-              <a href="#">
-                <div class="card-title">
-                  <strong>product name</strong>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="my-3 p-3 rounder card">
+                <a href="#"><img src="./img/968891.jpg" class="card-img-top product-img"></a>
+                <div class="card-body">
+                  <a href="#">
+                    <div class="card-title">
+                      <strong class="product-name">product name D</strong>
+                    </div>
+                  </a>
+                  <h3 class="card-text">Rs. <span class="p-price">444</span></h3>
+                  <button class="btn btn-dark btn-block" id="add-cart-btn">ADD TO CART</button>
                 </div>
-              </a>
-              <h3 class="card-text">Rs. <span class="p-price">999</span></h3>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-          <div class="my-3 p-3 rounder card">
-            <a href="#"><img src="./img/968891.jpg" class="card-img-top"></a>
-            <div class="card-body">
-              <a href="#">
-                <div class="card-title">
-                  <strong>product name</strong>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="my-3 p-3 rounder card">
+                <a href="#"><img src="./img/968891.jpg" class="card-img-top product-img"></a>
+                <div class="card-body">
+                  <a href="#">
+                    <div class="card-title">
+                      <strong class="product-name">product name E</strong>
+                    </div>
+                  </a>
+                  <h3 class="card-text">Rs. <span class="p-price">555</span></h3>
+                  <button class="btn btn-dark btn-block" id="add-cart-btn">ADD TO CART</button>
                 </div>
-              </a>
-              <h3 class="card-text">Rs. <span class="p-price">999</span></h3>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-          <div class="my-3 p-3 rounder card">
-            <a href="#"><img src="./img/968891.jpg" class="card-img-top"></a>
-            <div class="card-body">
-              <a href="#">
-                <div class="card-title">
-                  <strong>product name</strong>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="my-3 p-3 rounder card">
+                <a href="#"><img src="./img/968891.jpg" class="card-img-top product-img"></a>
+                <div class="card-body">
+                  <a href="#">
+                    <div class="card-title">
+                      <strong class="product-name">product name F</strong>
+                    </div>
+                  </a>
+                  <h3 class="card-text">Rs. <span class="p-price">666</span></h3>
+                  <button class="btn btn-dark btn-block" id="add-cart-btn">ADD TO CART</button>
                 </div>
-              </a>
-              <h3 class="card-text">Rs. <span class="p-price">999</span></h3>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-          <div class="my-3 p-3 rounder card">
-            <a href="#"><img src="./img/968891.jpg" class="card-img-top"></a>
-            <div class="card-body">
-              <a href="#">
-                <div class="card-title">
-                  <strong>product name</strong>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="my-3 p-3 rounder card">
+                <a href="#"><img src="./img/968891.jpg" class="card-img-top product-img"></a>
+                <div class="card-body">
+                  <a href="#">
+                    <div class="card-title">
+                      <strong class="product-name">product name G</strong>
+                    </div>
+                  </a>
+                  <h3 class="card-text">Rs. <span class="p-price">777</span></h3>
+                  <button class="btn btn-dark btn-block" id="add-cart-btn">ADD TO CART</button>
                 </div>
-              </a>
-              <h3 class="card-text">Rs. <span class="p-price">999</span></h3>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <footer>
     <p class="text-center">

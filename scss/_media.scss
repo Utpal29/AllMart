@@ -37,15 +37,15 @@
     }
   }
 
-  #carousel {
+  body {
     margin: 3rem auto;
-  }
 
+  }
 }
 
 // Smartphones
 @media (max-width: 500px) {
-  #carousel {
+  body {
     margin: 0rem auto;
   }
 }

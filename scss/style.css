@@ -7,6 +7,7 @@ body {
   background-color: #fff;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   line-height: 1.6;
+  margin: 8rem auto;
 }
 
 a {
@@ -51,11 +52,29 @@ input:focus {
   outline: none;
 }
 
+button {
+  border-radius: 0;
+}
+
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden;
+}
+
+#add-cart-btn {
+  margin-left: 0.4rem;
+  background-color: #343a40;
+  color: #f7f7f9;
+}
+
+#add-cart-btn:hover {
+  background-color: #343a40;
+  opacity: 0.8;
+  color: #f7f7f9;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 header {
@@ -164,12 +183,6 @@ header #navbar input[type="text"] {
   color: #fff;
 }
 
-#sign-in,
-#sign-up,
-#cart-main {
-  margin: 8rem auto;
-}
-
 #sign-in .title,
 #sign-up .title,
 #cart-main .title {
@@ -218,6 +231,15 @@ header #navbar input[type="text"] {
 #latest a:hover {
   opacity: 1;
   text-decoration: underline;
+}
+
+.back-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.back-btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -270,13 +292,13 @@ footer p {
   header .nav-search {
     padding-top: 1rem;
   }
-  #carousel {
+  body {
     margin: 3rem auto;
   }
 }
 
 @media (max-width: 500px) {
-  #carousel {
+  body {
     margin: 0rem auto;
   }
 }
