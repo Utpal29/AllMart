@@ -174,7 +174,8 @@ header {
 
 // Sign in page
 #sign-in,
-#sign-up {
+#sign-up,
+#cart-main {
   margin: 8rem auto;
 
   .title {
@@ -221,6 +222,7 @@ header {
 
 footer {
   background-color: $color-lightx2;
+
   p {
     margin-bottom: 0;
   }

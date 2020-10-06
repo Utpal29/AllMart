@@ -165,41 +165,48 @@ header #navbar input[type="text"] {
 }
 
 #sign-in,
-#sign-up {
+#sign-up,
+#cart-main {
   margin: 8rem auto;
 }
 
 #sign-in .title,
-#sign-up .title {
+#sign-up .title,
+#cart-main .title {
   text-transform: uppercase;
   font-weight: 700;
 }
 
 #sign-in input,
-#sign-up input {
+#sign-up input,
+#cart-main input {
   border: none;
   padding: 0.7rem 1rem;
   background: #f7f7f9;
 }
 
 #sign-in input:focus,
-#sign-up input:focus {
+#sign-up input:focus,
+#cart-main input:focus {
   outline: none;
 }
 
 #sign-in a,
-#sign-up a {
+#sign-up a,
+#cart-main a {
   color: #000;
 }
 
 #sign-in a:hover,
-#sign-up a:hover {
+#sign-up a:hover,
+#cart-main a:hover {
   opacity: 1;
   text-decoration: underline;
 }
 
 #sign-in .btn,
-#sign-up .btn {
+#sign-up .btn,
+#cart-main .btn {
   border-radius: 0;
   padding: 0.7rem 1rem;
 }
