@@ -38,14 +38,13 @@
   }
 
   body {
-    margin: 3rem auto;
-
+    margin: 6rem auto;
   }
 }
 
 // Smartphones
 @media (max-width: 500px) {
   body {
-    margin: 0rem auto;
+    margin: 5rem auto;
   }
 }

@@ -58,6 +58,8 @@ input:focus {
 
 button {
   border-radius: 0;
+  background-color: #343a40;
+  color: #fff;
 }
 
 .container {
@@ -297,13 +299,13 @@ footer p {
     padding-top: 1rem;
   }
   body {
-    margin: 3rem auto;
+    margin: 6rem auto;
   }
 }
 
 @media (max-width: 500px) {
   body {
-    margin: 0rem auto;
+    margin: 5rem auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

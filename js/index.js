@@ -48,6 +48,12 @@ products.addEventListener('click', (e) => {
               <div class="list-group-item">
                 Age-group: <span class="age-group">16 - 18</span>
               </div>
+              <div class="list-group-item">
+                Status: <span class="product-status">In Stock</span>
+              </div>
+              <div class="list-group-item">
+                <button type="button" class="btn-block btn btn-dark">Add To Cart</button>  
+              </div>
             </div>
           </div>
         </div>
@@ -80,6 +86,12 @@ products.addEventListener('click', (e) => {
             </div>
             <div class="list-group-item">
               Age-group: <span class="age-group">16 - 18</span>
+            </div>
+            <div class="list-group-item">
+              Status: <span class="product-status">In Stock</span>
+            </div>
+            <div class="list-group-item">
+              <button type="button" class="btn-block btn btn-dark">Add To Cart</button>
             </div>
           </div>
         </div>
