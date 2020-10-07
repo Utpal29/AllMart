@@ -11,6 +11,10 @@ $color-lightx2: #f7f7f9;
   padding: 0;
 }
 
+html {
+  height: auto;
+}
+
 body {
   background-color: $color-light;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
