@@ -19,9 +19,6 @@ products.addEventListener('click', (e) => {
   e.preventDefault();
   const main = document.querySelector('#main');
 
-  // ${e.target.parentElement.nextSibling.children[0].children[0].children[0].innerText}
-  // ${e.target.parentElement.nextSibling.nextSibling.children[1].children[1].innerText}
-
   if (e.target.classList.contains("product-img")) {
     main.innerHTML = `
       <div class="container">
@@ -50,9 +47,6 @@ products.addEventListener('click', (e) => {
               </div>
               <div class="list-group-item">
                 Status: <span class="product-status">In Stock</span>
-              </div>
-              <div class="list-group-item">
-                <button type="button" class="btn-block btn btn-dark">Add To Cart</button>  
               </div>
             </div>
           </div>
@@ -90,9 +84,6 @@ products.addEventListener('click', (e) => {
             <div class="list-group-item">
               Status: <span class="product-status">In Stock</span>
             </div>
-            <div class="list-group-item">
-              <button type="button" class="btn-block btn btn-dark">Add To Cart</button>
-            </div>
           </div>
         </div>
       </div>
@@ -100,3 +91,14 @@ products.addEventListener('click', (e) => {
   `;
   }
 });
+
+// Add to cart
+const cartBtn = document.querySelectorAll('.add-cart-btn');
+
+for (let i = 0; i < cartBtn.length; i++) {
+  cartBtn[i].addEventListener('click', (e) => {
+    e.preventDefault();
+
+    console.log(i);
+  });
+}
