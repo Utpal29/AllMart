@@ -200,7 +200,6 @@ header {
 #sign-in,
 #sign-up,
 #cart-main {
-
   .title {
     text-transform: uppercase;
     font-weight: 700;
@@ -250,6 +249,54 @@ header {
 
   &:hover {
     background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+#categories-main {
+  div {
+    height: 200px;
+    width: auto;
+    position: relative;
+    
+    img {
+      margin: 0 25.3rem;
+      height: 100%;
+      width: auto;
+    }
+
+    h1 {
+      position: absolute;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    a {
+      color: $color-dark;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+
+  .d1 {
+    img {
+      float: left;
+    }
+    h1 {
+      top: 40%;
+      right: 35%;
+    }
+  }
+
+  .d2 {
+    img {
+      float: right;
+    }
+    h1 {
+      top: 40%;
+      left: 35%;
+    }
   }
 }
 

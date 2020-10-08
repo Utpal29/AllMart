@@ -39,6 +39,34 @@
 
   body {
     margin: 6rem auto;
+    height: auto;
+  }
+
+  #categories-main {
+    div {
+      height: 200px;
+      margin-bottom: 3rem;
+    }
+    text-align: center;
+
+    img {
+      margin: 0;
+    }
+
+    h1 {
+      position: static;
+    }
+
+    .d1,
+    .d2 {
+      img {
+        float: none;
+        margin: 0;
+      }
+      h1 {
+        position: static;
+      }
+    }
   }
 }
 

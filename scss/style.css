@@ -248,6 +248,50 @@ header #navbar input[type="text"] {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#categories-main div {
+  height: 200px;
+  width: auto;
+  position: relative;
+}
+
+#categories-main div img {
+  margin: 0 25.3rem;
+  height: 100%;
+  width: auto;
+}
+
+#categories-main div h1 {
+  position: absolute;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#categories-main div a {
+  color: #343a40;
+}
+
+#categories-main div a:hover {
+  color: #000;
+}
+
+#categories-main .d1 img {
+  float: left;
+}
+
+#categories-main .d1 h1 {
+  top: 40%;
+  right: 35%;
+}
+
+#categories-main .d2 img {
+  float: right;
+}
+
+#categories-main .d2 h1 {
+  top: 40%;
+  left: 35%;
+}
+
 footer {
   background-color: #f7f7f9;
 }
@@ -300,6 +344,29 @@ footer p {
   }
   body {
     margin: 6rem auto;
+    height: auto;
+  }
+  #categories-main {
+    text-align: center;
+  }
+  #categories-main div {
+    height: 200px;
+    margin-bottom: 3rem;
+  }
+  #categories-main img {
+    margin: 0;
+  }
+  #categories-main h1 {
+    position: static;
+  }
+  #categories-main .d1 img,
+  #categories-main .d2 img {
+    float: none;
+    margin: 0;
+  }
+  #categories-main .d1 h1,
+  #categories-main .d2 h1 {
+    position: static;
   }
 }
 
