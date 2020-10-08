@@ -93,12 +93,36 @@ products.addEventListener('click', (e) => {
 });
 
 // Add to cart
-const cartBtn = document.querySelectorAll('.add-cart-btn');
+// const cartBtn = document.querySelectorAll('.add-cart-btn');
 
-for (let i = 0; i < cartBtn.length; i++) {
-  cartBtn[i].addEventListener('click', (e) => {
-    e.preventDefault();
+// for (let i = 0; i < cartBtn.length; i++) {
+//   cartBtn[i].addEventListener('click', (e) => {
+//     e.preventDefault();
 
-    console.log(i);
-  });
-}
+//     cartNumbers();
+//   });
+// }
+
+// function cartNumbers() {
+//   let productNumbers = localStorage.getItem('cartNumbers');
+
+//   productNumbers = parseInt(productNumbers);
+
+//   if( productNumbers ) {
+//     localStorage.setItem('cartNumbers', productNumbers + 1);
+//     document.querySelector('.no').textContent = productNumbers + 1;
+//   } else {
+//     localStorage.setItem('cartNumbers', 1);
+//     document.querySelector('.no').textContent = 1;
+//   }
+// } 
+
+// function onLoadCartNumber() {
+//   let productNumbers = localStorage.getItem('cartNumbers');
+
+//   if(productNumbers) {
+//     document.querySelector('.no').textContent = productNumbers;
+//   }
+// }
+
+// onLoadCartNumber();
