@@ -260,6 +260,10 @@ header #navbar input[type="text"] {
   color: #000;
 }
 
+.card {
+  border: #343a40 2px solid;
+}
+
 #categories-main div {
   height: 210px;
   width: auto;

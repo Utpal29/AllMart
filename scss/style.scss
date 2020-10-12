@@ -266,6 +266,10 @@ header {
   }
 }
 
+.card {
+  border: $color-dark 2px solid;
+}
+
 #categories-main {
   div {
     height: 210px;
