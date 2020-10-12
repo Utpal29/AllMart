@@ -264,65 +264,19 @@ header #navbar input[type="text"] {
   border: #343a40 2px solid;
 }
 
-#categories-main div {
-  height: 210px;
-  width: auto;
-  position: relative;
-}
-
-#categories-main div img {
-  margin: 0 25.3rem;
-  height: 100%;
-  width: auto;
-  border: #343a40 4px solid;
+#categories-main img {
   border-radius: 10px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
 }
 
-#categories-main div h1 {
-  position: absolute;
+#categories-main h1 {
   font-weight: bold;
+  text-align: center;
+}
+
+#categories-main h1:hover {
   text-decoration: underline;
-  background: #c4c4c4;
-}
-
-#categories-main div a {
-  color: #343a40;
-}
-
-#categories-main div a:hover {
-  color: #000;
-}
-
-#categories-main .d1 h1 {
-  -webkit-transform: skew(10deg);
-          transform: skew(10deg);
-}
-
-#categories-main .d1 img {
-  float: left;
-  -webkit-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-}
-
-#categories-main .d1 h1 {
-  top: 40%;
-  right: 36%;
-}
-
-#categories-main .d2 h1 {
-  -webkit-transform: skew(-10deg);
-          transform: skew(-10deg);
-}
-
-#categories-main .d2 img {
-  float: right;
-  -webkit-transform: rotate(10deg);
-          transform: rotate(10deg);
-}
-
-#categories-main .d2 h1 {
-  top: 40%;
-  left: 31%;
 }
 
 footer {
@@ -378,28 +332,6 @@ footer p {
   body {
     margin: 6rem auto;
     height: auto;
-  }
-  #categories-main {
-    text-align: center;
-  }
-  #categories-main div {
-    height: 200px;
-    margin-bottom: 3rem;
-  }
-  #categories-main img {
-    margin: 0;
-  }
-  #categories-main h1 {
-    position: static;
-  }
-  #categories-main .d1 img,
-  #categories-main .d2 img {
-    float: none;
-    margin: 0;
-  }
-  #categories-main .d1 h1,
-  #categories-main .d2 h1 {
-    position: static;
   }
 }
 
