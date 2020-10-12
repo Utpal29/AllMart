@@ -248,6 +248,10 @@ header #navbar input[type="text"] {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#products div.my-3.p-3.rounder.card {
+  background-color: #8db69b;
+}
+
 #products a {
   color: #000;
 }
