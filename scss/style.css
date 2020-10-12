@@ -248,6 +248,18 @@ header #navbar input[type="text"] {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#products a {
+  color: #000;
+}
+
+#products a:hover {
+  color: #000;
+}
+
+#products a:visited {
+  color: #000;
+}
+
 #categories-main div {
   height: 200px;
   width: auto;

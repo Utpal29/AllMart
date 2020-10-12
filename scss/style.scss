@@ -252,6 +252,20 @@ header {
   }
 }
 
+#products {
+  a {
+    color: #000;
+
+    &:hover{
+    color: #000;
+    }
+
+    &:visited {
+    color: #000;
+    }
+  }
+}
+
 #categories-main {
   div {
     height: 200px;
