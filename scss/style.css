@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #8db69bab;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   line-height: 1.6;
   margin: 8rem auto;
@@ -172,7 +172,7 @@ header #navbar input[type="text"] {
 #carousel {
   position: relative;
   margin: 6rem auto;
-  background-color: #f7f7f9;
+  background-color: #8db69b;
   padding: 1rem 0;
 }
 
@@ -261,7 +261,7 @@ header #navbar input[type="text"] {
 }
 
 #categories-main div {
-  height: 200px;
+  height: 210px;
   width: auto;
   position: relative;
 }
@@ -270,12 +270,15 @@ header #navbar input[type="text"] {
   margin: 0 25.3rem;
   height: 100%;
   width: auto;
+  border: #4bbf73 4px solid;
+  border-radius: 10px;
 }
 
 #categories-main div h1 {
   position: absolute;
   font-weight: bold;
   text-decoration: underline;
+  background: #4bbf73;
 }
 
 #categories-main div a {
@@ -286,22 +289,36 @@ header #navbar input[type="text"] {
   color: #000;
 }
 
+#categories-main .d1 h1 {
+  -webkit-transform: skew(10deg);
+          transform: skew(10deg);
+}
+
 #categories-main .d1 img {
   float: left;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }
 
 #categories-main .d1 h1 {
   top: 40%;
-  right: 35%;
+  right: 36%;
+}
+
+#categories-main .d2 h1 {
+  -webkit-transform: skew(-10deg);
+          transform: skew(-10deg);
 }
 
 #categories-main .d2 img {
   float: right;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
 }
 
 #categories-main .d2 h1 {
   top: 40%;
-  left: 35%;
+  left: 31%;
 }
 
 footer {

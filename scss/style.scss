@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: $color-light;
+  background-color: #8db69bab;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   line-height: 1.6;
   margin: 8rem auto;
@@ -168,7 +168,7 @@ header {
 #carousel {
   position: relative;
   margin: 6rem auto;
-  background-color: $color-lightx2;
+  background-color: #8db69b;
   padding: 1rem 0;
 
   img {
@@ -268,7 +268,7 @@ header {
 
 #categories-main {
   div {
-    height: 200px;
+    height: 210px;
     width: auto;
     position: relative;
     
@@ -276,12 +276,15 @@ header {
       margin: 0 25.3rem;
       height: 100%;
       width: auto;
+      border: $color-main 4px solid;
+      border-radius: 10px;
     }
 
     h1 {
       position: absolute;
       font-weight: bold;
       text-decoration: underline;
+      background: $color-main;
     }
 
     a {
@@ -294,22 +297,30 @@ header {
   }
 
   .d1 {
+    h1 {
+      transform: skew(10deg);
+    }
     img {
       float: left;
+      transform: rotate(-10deg);
     }
     h1 {
       top: 40%;
-      right: 35%;
+      right: 36%;
     }
   }
 
   .d2 {
+    h1 {
+      transform: skew(-10deg);
+    }
     img {
       float: right;
+      transform: rotate(10deg);
     }
     h1 {
       top: 40%;
-      left: 35%;
+      left: 31%;
     }
   }
 }
