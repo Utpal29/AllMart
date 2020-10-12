@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: #8db69bab;
+  background-color: $color-light;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   line-height: 1.6;
   margin: 8rem auto;
@@ -168,7 +168,7 @@ header {
 #carousel {
   position: relative;
   margin: 6rem auto;
-  background-color: #8db69b;
+  background-color: $color-lightx2;
   padding: 1rem 0;
 
   img {
@@ -253,14 +253,6 @@ header {
 }
 
 #products {
-  div.my-3.p-3.rounder.card {
-    background-color: #8db69b;
-  }
-
-  // .card-body {
-    // background-color: #8db69bab;
-  // }
-
   a {
     color: #000;
 
@@ -284,7 +276,7 @@ header {
       margin: 0 25.3rem;
       height: 100%;
       width: auto;
-      border: $color-main 4px solid;
+      border: $color-dark 4px solid;
       border-radius: 10px;
     }
 
@@ -292,7 +284,7 @@ header {
       position: absolute;
       font-weight: bold;
       text-decoration: underline;
-      background: $color-main;
+      background: rgb(196, 196, 196);
     }
 
     a {

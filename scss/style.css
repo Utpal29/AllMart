@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #8db69bab;
+  background-color: #fff;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   line-height: 1.6;
   margin: 8rem auto;
@@ -172,7 +172,7 @@ header #navbar input[type="text"] {
 #carousel {
   position: relative;
   margin: 6rem auto;
-  background-color: #8db69b;
+  background-color: #f7f7f9;
   padding: 1rem 0;
 }
 
@@ -248,10 +248,6 @@ header #navbar input[type="text"] {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-#products div.my-3.p-3.rounder.card {
-  background-color: #8db69b;
-}
-
 #products a {
   color: #000;
 }
@@ -274,7 +270,7 @@ header #navbar input[type="text"] {
   margin: 0 25.3rem;
   height: 100%;
   width: auto;
-  border: #4bbf73 4px solid;
+  border: #343a40 4px solid;
   border-radius: 10px;
 }
 
@@ -282,7 +278,7 @@ header #navbar input[type="text"] {
   position: absolute;
   font-weight: bold;
   text-decoration: underline;
-  background: #4bbf73;
+  background: #c4c4c4;
 }
 
 #categories-main div a {
