@@ -8,7 +8,7 @@ import Loader from '../components/Loader'
 import { listProductDetails } from '../actions/productActions'
 
 const ProductScreen = ({ history, match }) => {
-  const [qty, setQty] = useState(0)
+  const [qty, setQty] = useState(1)
 
   const dispatch = useDispatch()
 
@@ -48,9 +48,12 @@ const ProductScreen = ({ history, match }) => {
                   text={`${product.numReviews} reviews`}
                 />
               </ListGroup.Item>
-              <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
+              <ListGroup.Item>Price: Rs. {product.price}</ListGroup.Item>
               <ListGroup.Item>
-                Description: {product.description}
+                Size: {product.size}
+              </ListGroup.Item>
+              <ListGroup.Item>
+                Category: {product.category}
               </ListGroup.Item>
             </ListGroup>
           </Col>
@@ -61,7 +64,7 @@ const ProductScreen = ({ history, match }) => {
                   <Row>
                     <Col>Price:</Col>
                     <Col>
-                      <strong>${product.price}</strong>
+                      <strong>Rs. {product.price}</strong>
                     </Col>
                   </Row>
                 </ListGroup.Item>
