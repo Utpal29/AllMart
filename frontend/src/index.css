@@ -40,10 +40,10 @@ h2 {
 }
 
 .carousel img {
-  height: 300px;
-  padding: 30px;
-  margin: 40px;
-  border-radius: 50%;
+  height: 500px;
+  padding: 40px;
+  margin: 45px;
+  border-radius: 30%;
 }
 .carousel a {
   margin: 0 auto;

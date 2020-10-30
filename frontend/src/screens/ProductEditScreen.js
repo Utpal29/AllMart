@@ -173,15 +173,15 @@ const ProductEditScreen = ({ match, history }) => {
               ></Form.Control>
             </Form.Group>
 
-            <Form.Group controlId='description'>
+            {/* <Form.Group controlId='description'>
               <Form.Label>Description</Form.Label>
               <Form.Control
-                type='text'
+                type='text' 
                 placeholder='Enter description'
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
               ></Form.Control>
-            </Form.Group>
+            </Form.Group> */}
 
             <Button type='submit' variant='primary'>
               Update
